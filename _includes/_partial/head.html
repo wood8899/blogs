@@ -37,19 +37,19 @@
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="page.description">
     <meta name="twitter:creator" content="@{{ site.author.twitter }}">
-    <link rel="publisher" href="{{ site.author.google_plus }}">
+    <link rel="publisher" href="/blogs/{{ site.author.google_plus }}">
 
     {% if site.rss %}
-    <link rel="alternative" href="{{ site.rss }}" title="{{ site.title }}" type="application/atom+xml">
+    <link rel="alternative" href="/blogs/{{ site.rss }}" title="/blogs/{{ site.title }}" type="application/atom+xml">
     {% endif %}
     {% if site.favicon %}
-    <link rel="icon" href="{{ site.assets }}/{{ site.favicon }}">
+    <link rel="icon" href="/blogs/{{ site.assets }}/{{ site.favicon }}">
     {% endif %}
     {% if site.apple_icon %}
-    <link rel="apple-touch-icon" href="{{ site.assets }}/{{ site.apple_icon }}">
-    <link rel="apple-touch-icon-precomposed" href="{{ site.assets }}/{{ site.apple_icon }}">
+    <link rel="apple-touch-icon" href="/blogs/{{ site.assets }}/{{ site.apple_icon }}">
+    <link rel="apple-touch-icon-precomposed" href="/blogs/{{ site.assets }}/{{ site.apple_icon }}">
     {% endif %}
 
-    <link rel="stylesheet" href="{{ site.assets }}/css/style.css" type="text/css">
-    <link rel="stylesheet" href="{{ site.assets }}/css/highlight.css" type="text/css">
+    <link rel="stylesheet" href="/blogs/{{ site.assets }}/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/blogs/{{ site.assets }}/css/highlight.css" type="text/css">
 </head>
