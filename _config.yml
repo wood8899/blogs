@@ -24,7 +24,7 @@ redcarpet:
     - with_toc_data
     
 
-title : Jekyll Jacman
+title : 张开广的博客
 tagline: A fresh looking and responsive theme for Jekyll
 
 defaults:
