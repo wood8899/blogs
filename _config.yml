@@ -24,8 +24,8 @@ redcarpet:
     - with_toc_data
     
 
-title : 张开广的博客
-tagline: A fresh looking and responsive theme for Jekyll
+title : 木头的博客
+tagline: 累了的时候，放下代码，陪陪家人！
 
 defaults:
   -
